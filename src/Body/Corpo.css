@@ -1,0 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(137, 137, 179);
+}
