@@ -11,20 +11,20 @@ export default props => {
                     <div className="menu">
                         <Link to="/Explore">
                             Explore
-                    </Link>
+                        </Link>
                         <Link to="/sobreNos">
                             Sobre Nós
-                    </Link>
+                        </Link>
                         <Link to="/Seguros">
                             Seguros
-                    </Link>
+                        </Link>
                         <Link to="/Hoteis">
                             Hotéis
-                    </Link>
+                        </Link>
                     </div>
                 </div>
                 <div id="login">
-                    <Link to="/Viagens">
+                    <Link to="/">
                         Viagens
                     </Link>
                     <button>Login</button>

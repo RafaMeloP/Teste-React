@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from '../Nav/Nav.jsx';
+import Texto from '../Texto/Texto.jsx';
+import Form from '../Form/Form.jsx';
 import './Corpo.css';
 
 export default props => {
@@ -9,13 +11,17 @@ export default props => {
             <Router>
                 <Nav />
                 <Switch>
-                    <Route exact path="/Explore">
+                    <Route exact path="/">
+                        <Texto />
+                        <Form />
+                    </Route>
+                    <Route path="/Explore">
                         <h1>Página ainda inexistente</h1>
                     </Route>
                     <Route path="/sobreNos">
                         <h1>Página ainda inexistente</h1>
                     </Route>
-                    <Route exact path="/Seguros">
+                    <Route path="/Seguros">
                         <h1>Página ainda inexistente</h1>
                     </Route>
                     <Route path="/Hoteis">
@@ -23,9 +29,6 @@ export default props => {
                     </Route>
                 </Switch>
             </Router>
-            <div id="texto">
-                <h1>Sla</h1>
-            </div>
         </div>
     )
 }
