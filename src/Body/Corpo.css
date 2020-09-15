@@ -4,7 +4,7 @@ body{
 }
 #container{
     width: 100%;
-    height: 60vh;
+    height: 50%;
     background: url("./graph-paper.png"),
     linear-gradient(180deg, #A0AEC0 0%, #718096 100%);
 }
