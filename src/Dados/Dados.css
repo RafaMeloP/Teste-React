@@ -1,0 +1,37 @@
+.contain{
+    margin-top: 9%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain #cont{
+    background-color: rgba(188, 237, 253,0.4);
+    width: 50%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+}
+.contain #cont div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 97%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.contain #cont div #texto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain #cont h2{
+    color: rgb(149, 168, 173);
+    font-size: 2.5vh;
+}

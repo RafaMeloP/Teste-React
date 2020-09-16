@@ -9,16 +9,16 @@ export default props => {
                 <div id="menu">
                     <img src="Icon/Logo.svg" alt="Logo" />
                     <div className="menu">
-                        <Link to="/Explore">
+                        <Link to="/">
                             Explore
                         </Link>
-                        <Link to="/sobreNos">
+                        <Link to="/">
                             Sobre Nós
                         </Link>
-                        <Link to="/Seguros">
+                        <Link to="/">
                             Seguros
                         </Link>
-                        <Link to="/Hoteis">
+                        <Link to="/">
                             Hotéis
                         </Link>
                     </div>
