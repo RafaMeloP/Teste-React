@@ -1,7 +1,8 @@
 .container.form {
-    margin-top: 6%;
+    margin-top: 15vh;
     bottom: 0%;
     width: 100%;
+    height: 100%;
 }
 
 #form {
@@ -9,7 +10,7 @@
     background-color: white;
     border-radius: 4px;
     width: 90%;
-    height: 28%;
+    height: 32vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,7 @@
     margin-top: 3%;
     margin-left: 4%;
     width: 100%;
-    height: auto;
+    height: 30%;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -30,65 +31,78 @@
 #form #radio .radio {
     font-size: 90%;
     font-weight: 300;
+    font-size: 100%;
 }
 
 #form #radio .radio+.radio {
     margin-left: 1%;
 }
-#form #dados{
-    margin-top: 2%;
+
+#form #dados {
     width: 95%;
-    height: auto;
+    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-#form #dados .dado{
-    width: 100%;
+
+#form #dados .dado {
+    width: 22vw;
+    height: 9vh;
     display: flex;
     flex-direction: column;
 }
-#form #dados .dado small{
+
+#form #dados .dado small {
     font-size: 80%;
     font-weight: 600;
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
-#form #dados .dado .img{
-    border: 1px solid rgba(0,0,0,0.3);
-    width: 90%;
+
+#form #dados .dado .img {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 20vw;
+    height: 5vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 3%;
 }
-#form #dados .dado .img span{
-    height: 100%;
-    width: 100%;
-    margin-top: 1%;
+
+#form #dados .dado .img span {
+    height: 4vh;
+    width: 3vw;
 }
-#form #dados .dado .img span img{
-    height: 100%;
-    width: 100%;
+
+#form #dados .dado .img span img {
+    height: 4vh;
+    width: 3vw;
 }
-#form #dados .dado .img + .img{
+
+#form #dados .dado .img+.img {
     margin-left: 2%;
 }
-#form #dados .dado .img input{
+
+#form #dados .dado .img input {
+    width: 15vw;
+    height: 4vh;
     border: 0;
     outline: none;
-    font-size: 85%;
+    font-size: 2.5vh;
 }
-#form #botao{
+
+#form #botao {
     width: 100%;
-    height: 20%;
+    height: 30%;
     display: flex;
     flex-direction: row-reverse;
     margin-right: 9%;
-    margin-top: 2%;
+    margin-bottom: 1%;
 }
-#form #botao button{
+
+#form #botao button {
     width: 20%;
     height: 100%;
     display: flex;
@@ -103,13 +117,63 @@
     transition: 400ms;
     font-weight: 500;
 }
-#form #botao button:hover{
+
+#form #botao button:hover {
     background-color: rgb(65, 65, 197);
 }
-#form #botao button span{
+
+#form #botao button span {
     margin-right: 3%;
 }
-#form #botao button span img{
+
+#form #botao button span img {
     width: 80%;
     height: 80%;
+}
+
+@media(max-width:924px) {
+    #form {
+        margin-top: 25vh;
+        justify-content: center;
+        align-items: center;
+        width: 45vw;
+        height: 50vh;
+    }
+    #form #radio {
+        margin-top: 3%;
+        margin-left: 4%;
+        justify-content: center;
+        font-size: 1.5vh;
+    }
+    #form #dados {
+        flex-direction: column;
+    }
+    #form #dados .dado {
+        width: 90%;
+    }
+    #form #dados .dado small {
+        font-size: 1.5vh;
+    }
+    #form #dados .dado .img {
+        width: 100%;
+        height: 3vh;
+    }
+    #form #dados .dado .img span {
+        height: 3vh;
+        width: 3vw;
+    }
+    #form #dados .dado .img span img {
+        height: 3vh;
+        width: 3vw;
+    }
+    #form #dados .dado .img input {
+        width: 90%;
+        height: 2vh;
+        font-size: 1.5vh;
+    }
+    #form #botao button {
+        width: 50%;
+        height: 60%;
+        font-size: 1.5vh;
+    }
 }

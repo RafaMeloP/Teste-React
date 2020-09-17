@@ -8,3 +8,39 @@ body{
     background: url("./graph-paper.png"),
     linear-gradient(180deg, #A0AEC0 0%, #718096 100%);
 }
+#menuCel.hidden{
+    display: none;
+}
+#menuCel{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
+}
+#menuCel #links{
+    margin-bottom: 2%;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#menuCel #links .link{
+    width: 25vw;
+    height: 3vh;
+    padding-top: 4%;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    display: flex;
+    justify-content: center;
+}
+#menuCel #links .link.p{
+    border-top: none;
+}
+#menuCel #links .link a{
+    color: white;
+    font-size: 2vh;
+}

@@ -11,9 +11,9 @@ export default props => {
                         <p>
 
                             "origem" :  "{props.estado.origem}",<br />
-                        "destino" :  "{props.estado.destino}",<br />
-                        "data" :  "{props.estado.data}",<br />
-                        "pessoas" :  {props.estado.pessoas}<br />
+                            "destino" :  "{props.estado.destino}",<br />
+                            "data" :  "{props.estado.data}",<br />
+                            "pessoas" :  {props.estado.pessoas}<br />
 
                         </p>
                     </div>

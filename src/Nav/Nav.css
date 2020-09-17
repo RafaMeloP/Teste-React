@@ -8,7 +8,7 @@
 #barra{
     position: relative;
     width: 90%;
-    height: 100%;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,6 +48,27 @@
     justify-content: space-between;
     align-items: center;
 }
+#barra #login #cel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+#barra #login #cel img{
+    width: 10vw;
+    height: 10vh;
+}
+#barra #login #desktop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 #barra #login button{
     height: 60%;
     width: 50%;
@@ -62,4 +83,31 @@
 }
 #barra #login button:hover{
     background-color: rgba(255,255,255,0.4);
+}
+#barra #login #cel button{
+    border: none;
+}
+#barra #login #cel button:hover{
+    background-color: rgba(0,0,0,0);
+}
+@media(max-width:960px){
+    #barra{
+        width: 100%;
+        padding-left: 3vw;
+    }
+    #barra #menu .menu{
+        display: none;
+    }
+    #barra #login #desktop{
+        display: none;
+    }
+    #barra #login #cel{
+        display: inline;
+    }
+}
+@media(max-width:266px){
+    #barra #menu img{
+        width: 50%;
+        height: 50%;
+    }
 }

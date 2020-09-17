@@ -24,10 +24,17 @@ export default props => {
                     </div>
                 </div>
                 <div id="login">
-                    <Link to="/">
-                        Viagens
+                    <div id="desktop">
+                        <Link to="/">
+                            Viagens
                     </Link>
-                    <button>Login</button>
+                        <button>Login</button>
+                    </div>
+                    <div id="cel">
+                        <button onClick={props.menuCel}>
+                            <img src="Icon/Menu.svg" alt="Menu"/>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

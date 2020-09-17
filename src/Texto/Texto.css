@@ -14,3 +14,11 @@
     color: rgba(8, 221, 228, 0.966);
     font-weight: 200;
 }
+@media(max-width:924px){
+    #cont h1{
+        font-size: 3.5vh;
+    }
+    #cont h3{
+        font-size: 2.5vh;
+    }
+}
